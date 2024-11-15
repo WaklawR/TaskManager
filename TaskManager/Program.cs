@@ -7,7 +7,7 @@ using System.IO;
 using System.Runtime.Remoting.Messaging;
 using System.Xml.Schema;
 
-namespace TaskManager                                    //TODO case 4 about flag is completed   сделать вывод всех задач при удалении                   
+namespace TaskManager                                               
 {
     internal class Program
     {
