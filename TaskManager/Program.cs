@@ -19,7 +19,7 @@ namespace TaskManager                                    //TODO case 4 about fla
             Console.WriteLine("1. See my tasks");
             Console.WriteLine("2. Add task");
             Console.WriteLine("3. Delete task");
-            //Console.WriteLine("4. Mark a task as completed");
+           
 
             while (true)
             {
@@ -52,6 +52,7 @@ namespace TaskManager                                    //TODO case 4 about fla
                     break;
                 case 3:
                     Console.Write("Enter the number of the task to delete: ");
+                    ShowTasks();
                     if (int.TryParse(Console.ReadLine(), out int taskNumber))
                     {
                         DeleteTask(taskNumber);
